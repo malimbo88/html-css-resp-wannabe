@@ -71,3 +71,64 @@ img {
 .clear {
   clear: both;
 }
+
+/* Esercizio MediaQuery */
+@media screen and (max-width: 419px) {
+
+/* COMMON 420px */
+body {
+  font-size: 11px;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 25px;
+  text-transform: uppercase;
+  line-height: 1;
+  margin: 0px 0px 30px 0px;
+  padding: 30px 0px 30px 0px;
+  text-align: center;
+  background-color: yellow;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 1;
+  margin: 0px;
+  padding: 30px 0px 15px 0px;
+  text-align: center;
+}
+
+.container {
+  padding: 10px 10px 10px 10px;
+}
+
+.row {
+  width: 100%;
+  margin: 0px;
+  padding:0px 0px 30px 0px;
+}
+
+.row img {
+  height: 80px;
+}
+
+/* Lezioni 420px */
+#lezioni .row>.left,
+#lezioni .row>.right {
+  width: 42% ;
+  margin:0 4% 0 4%;
+}
+
+/* Steps 420px */
+#steps .row>.left,
+#steps .row>.central,
+#steps .row>.right {
+  width: 30%;
+}
+
+#steps .row>.central {
+  margin: 0 5% 0 5%;
+}
+
+/* Why 420px */
