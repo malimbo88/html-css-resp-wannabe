@@ -77,36 +77,37 @@ img {
 
 /* COMMON 420px */
 body {
-  font-size: 11px;
+  font-size: 10.5px;
+  letter-spacing: 0.5px;
   line-height: 1.5;
+  color: #000839;
 }
 
 h1 {
-  font-size: 25px;
+  font-size: 22px;
   text-transform: uppercase;
   line-height: 1;
   margin: 0px 0px 30px 0px;
   padding: 30px 0px 30px 0px;
   text-align: center;
-  background-color: yellow;
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 15px;
   line-height: 1;
-  margin: 0px;
-  padding: 30px 0px 15px 0px;
+  margin: 30px 0px 15px 0px;
+  padding: 5px;
   text-align: center;
 }
 
 .container {
-  padding: 10px 10px 10px 10px;
+  padding: 15px 15px 15px 15px;
 }
 
 .row {
   width: 100%;
   margin: 0px;
-  padding:0px 0px 30px 0px;
+  padding:0px 0px 10px 0px;
 }
 
 .row img {
@@ -114,13 +115,34 @@ h3 {
 }
 
 /* Lezioni 420px */
+#lezioni h1{
+  border: 15px solid #d7385e;
+}
+
+#lezioni h3{
+  background-color: #10375c;
+  color: white;
+}
+
 #lezioni .row>.left,
 #lezioni .row>.right {
-  width: 42% ;
-  margin:0 4% 0 4%;
+  width: 45%;
+}
+
+#lezioni .row>.left{
+  margin-right: 10%;
 }
 
 /* Steps 420px */
+#steps {
+  background-color: white;
+}
+
+#steps h1 {
+  background-color: #10375c;
+  color:white;
+}
+
 #steps .row>.left,
 #steps .row>.central,
 #steps .row>.right {
@@ -132,3 +154,44 @@ h3 {
 }
 
 /* Why 420px */
+#why {
+  background-color: white;
+}
+
+#why h3 {
+  color: white;
+}
+
+#why h1 {
+  border: 15px solid #06623b;
+}
+
+#why .row>.first,
+#why .row>.second,
+#why .row>.third {
+  margin: 0px;
+  padding: 20px 0px 20px 0px;
+}
+
+#why .row img {
+  height: 40px;
+  padding: 20px;
+}
+
+#why .row hr {
+display: none;
+}
+
+#why .row>.first h3 {
+  background-color:#035aa6;
+}
+
+#why .row>.second h3 {
+  background-color: #fa744f;
+}
+
+#why .row>.third h3 {
+  background-color: #2c003e;
+}
+
+}
